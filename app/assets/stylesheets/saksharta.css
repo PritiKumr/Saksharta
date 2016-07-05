@@ -1,0 +1,20 @@
+.background{
+  /*position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;*/
+  background:url('photo-10.JPG');
+  background-size:cover;
+  /* z-index:1;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);*/
+}
+.login{
+  width: 500px;
+  height: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

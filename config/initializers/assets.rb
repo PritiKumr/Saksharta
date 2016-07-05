@@ -9,3 +9,6 @@ Rails.application.config.assets.version = '1.0'
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
+
+# This is being used by materialize to find its fonts. 
+Rails.application.config.assets.precompile << /materialize\/font\/.+\.(?:svg|eot|woff|woff2|ttf)\z/
