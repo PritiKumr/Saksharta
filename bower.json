@@ -1,0 +1,28 @@
+{
+  "name": "saksharta",
+  "version": "1.0.4",
+  "homepage": "https://github.com/shilpi230",
+  "authors": [
+    "Shilpi Agrawal"
+  ],
+  "description": "Saksharta - Education is everyone's right.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "Shilpi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/assets/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "Materialize": "materialize#^0.97.6"
+  }
+}
