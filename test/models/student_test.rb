@@ -1,16 +1,19 @@
 # == Schema Information
 #
-# Table name: admins
+# Table name: students
 #
 #  id         :integer          not null, primary key
-#  user_id    :integer
+#  name       :string
+#  unique_id  :string
+#  parent_id  :integer
+#  admin_id   :integer
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
 
 require 'test_helper'
 
-class AdminTest < ActiveSupport::TestCase
+class StudentTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

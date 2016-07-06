@@ -1,9 +1,12 @@
 # == Schema Information
 #
-# Table name: admins
+# Table name: students
 #
 #  id         :integer          not null, primary key
-#  user_id    :integer
+#  name       :string
+#  unique_id  :string
+#  parent_id  :integer
+#  admin_id   :integer
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
@@ -11,7 +14,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  user_id: 1
+  name: MyString
+  unique_id: MyString
+  parent_id: 1
+  admin_id: 1
 
 two:
-  user_id: 1
+  name: MyString
+  unique_id: MyString
+  parent_id: 1
+  admin_id: 1
